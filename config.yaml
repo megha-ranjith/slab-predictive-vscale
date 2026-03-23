@@ -1,0 +1,36 @@
+sampling_interval_ms: 500      # how often the daemon samples (0.5 s)
+prediction_window: 10          # number of recent samples for trend
+slab_caches_of_interest:
+  - kmalloc-256
+  - kmalloc-1024
+  - kmalloc-2048
+  - skbuff_head_cache
+  - dentry
+  - inode_cache
+host_memory_low_watermark_percent: 15   # below this, treat as host pressure
+host_memory_critical_percent: 5
+
+cgroup_root: "/sys/fs/cgroup"
+functions_parent: "slabvscale.slice"    # created by setup_cgroups.sh
+
+# per-function policies (logical names → sub-cgroup names)
+functions:
+  func_cpu_light_mem_light: "func_a.slice"
+  func_cpu_light_mem_heavy: "func_b.slice"
+  func_cpu_heavy_mem_heavy: "func_c.slice"
+
+# vertical scaling limits (in MiB)
+vertical_scaling:
+  min_limit_mb: 128
+  max_limit_mb: 4096
+  step_up_mb: 128
+  step_down_mb: 128
+
+prediction:
+  slab_growth_threshold_kb_per_sec: 512
+  cgroup_fault_rate_threshold: 50      # minor faults/s
+  confidence_required: 0.7
+
+logging:
+  base_dir: "./data/logs"
+  enable_stdout: true
