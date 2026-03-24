@@ -57,11 +57,21 @@ class CgroupInterface:
 
     def set_memory_high(self, sub: str, bytes_val: int):
         cg = self.cgroup_path(sub)
-        (cg / "memory.high").write_text(str(bytes_val))
+        path = cg / "memory.high"
+        try:
+            path.write_text(str(bytes_val))
+        except PermissionError as e:
+            # WSL / some kernels don't allow writing here; log and continue
+            print(f"[WARN] Could not write {path}: {e}")
 
     def set_memory_max(self, sub: str, bytes_val: int):
         cg = self.cgroup_path(sub)
-        (cg / "memory.max").write_text(str(bytes_val))
+        path = cg / "memory.max"
+        try:
+            path.write_text(str(bytes_val))
+        except PermissionError as e:
+            # WSL / some kernels don't allow writing here; log and continue
+            print(f"[WARN] Could not write {path}: {e}")
 
     def add_pid(self, sub: str, pid: int):
         cg = self.cgroup_path(sub)

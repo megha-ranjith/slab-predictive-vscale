@@ -5,8 +5,8 @@ from typing import Deque, Dict, List, Tuple
 from collections import deque
 import time
 
-from .slab_monitor import SlabSample
-from .cgroup_iface import CgroupStats
+from slab_monitor import SlabSample
+from cgroup_iface import CgroupStats
 
 @dataclass
 class Prediction:

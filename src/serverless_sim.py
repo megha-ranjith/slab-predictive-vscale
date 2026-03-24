@@ -9,9 +9,9 @@ from typing import Callable, Dict
 
 import psutil
 
-from .config import Config
-from .cgroup_iface import CgroupInterface
-from .logging_utils import setup_logger
+from config import Config
+from cgroup_iface import CgroupInterface
+from logging_utils import setup_logger
 
 def workload_mem_light(duration_sec: float):
     t_end = time.time() + duration_sec
