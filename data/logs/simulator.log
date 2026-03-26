@@ -1,0 +1,150 @@
+05:54:07 [INFO] simulator: Round 0: launched 4 instances
+05:54:07 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8006)
+05:54:07 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8007)
+05:54:07 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8009)
+05:54:07 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8008)
+05:54:10 [INFO] simulator: Round 1: launched 4 instances
+05:54:10 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8010)
+05:54:10 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8012)
+05:54:10 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8011)
+05:54:10 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8013)
+05:54:12 [INFO] simulator: Round 2: launched 1 instances
+05:54:12 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8014)
+05:54:13 [INFO] simulator: Round 3: launched 5 instances
+05:54:13 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8015)
+05:54:13 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8016)
+05:54:13 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8017)
+05:54:13 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8018)
+05:54:13 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8019)
+05:54:15 [INFO] simulator: Round 4: launched 1 instances
+05:54:15 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8020)
+05:54:16 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8021)
+05:54:16 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8022)
+05:54:16 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8023)
+05:54:16 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8024)
+05:54:16 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8025)
+05:54:16 [INFO] simulator: Round 5: launched 6 instances
+05:54:16 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8026)
+05:54:18 [INFO] simulator: Round 6: launched 7 instances
+05:54:18 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8027)
+05:54:18 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8028)
+05:54:18 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8030)
+05:54:18 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8031)
+05:54:18 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8029)
+05:54:18 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8033)
+05:54:18 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8032)
+05:54:20 [INFO] simulator: Round 7: launched 4 instances
+05:54:20 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8035)
+05:54:20 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8034)
+05:54:20 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8036)
+05:54:20 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8037)
+05:54:22 [INFO] simulator: Round 8: launched 7 instances
+05:54:22 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8039)
+05:54:22 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8041)
+05:54:22 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8040)
+05:54:22 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8038)
+05:54:22 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8042)
+05:54:22 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8043)
+05:54:22 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8044)
+05:54:24 [INFO] simulator: Round 9: launched 2 instances
+05:54:24 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8046)
+05:54:24 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8045)
+05:54:26 [INFO] simulator: Round 10: launched 3 instances
+05:54:26 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8048)
+05:54:26 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8049)
+05:54:26 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8047)
+05:54:27 [INFO] simulator: Round 11: launched 2 instances
+05:54:27 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8050)
+05:54:27 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8051)
+05:54:28 [INFO] simulator: Round 12: launched 2 instances
+05:54:28 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8052)
+05:54:28 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8053)
+05:54:30 [INFO] simulator: Round 13: launched 2 instances
+05:54:30 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8057)
+05:54:30 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8056)
+05:54:31 [INFO] simulator: Round 14: launched 6 instances
+05:54:31 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8058)
+05:54:31 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8063)
+05:54:31 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8059)
+05:54:31 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8062)
+05:54:31 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8061)
+05:54:31 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8060)
+05:54:33 [INFO] simulator: Round 15: launched 4 instances
+05:54:33 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8064)
+05:54:33 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8065)
+05:54:33 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8066)
+05:54:33 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8067)
+05:54:34 [INFO] simulator: Round 16: launched 5 instances
+05:54:34 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8068)
+05:54:34 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8069)
+05:54:34 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8070)
+05:54:34 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8071)
+05:54:34 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8072)
+05:54:36 [INFO] simulator: Round 17: launched 3 instances
+05:54:36 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8073)
+05:54:36 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8074)
+05:54:36 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8075)
+05:54:38 [INFO] simulator: Round 18: launched 2 instances
+05:54:38 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8078)
+05:54:38 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8079)
+05:54:40 [INFO] simulator: Round 19: launched 4 instances
+05:54:41 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8080)
+05:54:41 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8081)
+05:54:41 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8083)
+05:54:41 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8082)
+05:54:42 [INFO] simulator: Round 20: launched 5 instances
+05:54:42 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8084)
+05:54:42 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8086)
+05:54:42 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8088)
+05:54:42 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8087)
+05:54:42 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8085)
+05:54:44 [INFO] simulator: Round 21: launched 6 instances
+05:54:44 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8089)
+05:54:44 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8090)
+05:54:44 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8091)
+05:54:44 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8092)
+05:54:44 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8094)
+05:54:44 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8093)
+05:54:46 [INFO] simulator: Round 22: launched 3 instances
+05:54:46 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8096)
+05:54:46 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8095)
+05:54:46 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8097)
+05:54:48 [INFO] simulator: Round 23: launched 4 instances
+05:54:48 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8099)
+05:54:48 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8098)
+05:54:48 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8100)
+05:54:48 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8101)
+05:54:50 [INFO] simulator: Round 24: launched 3 instances
+05:54:50 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8102)
+05:54:50 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8103)
+05:54:50 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8104)
+05:54:52 [INFO] simulator: Round 25: launched 5 instances
+05:54:52 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8105)
+05:54:52 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8109)
+05:54:52 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8106)
+05:54:52 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8108)
+05:54:52 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8107)
+05:54:54 [INFO] simulator: Round 26: launched 5 instances
+05:54:54 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8113)
+05:54:54 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8112)
+05:54:54 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8114)
+05:54:54 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8115)
+05:54:54 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8116)
+05:54:56 [INFO] simulator: Round 27: launched 5 instances
+05:54:56 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8117)
+05:54:56 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8118)
+05:54:56 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8119)
+05:54:56 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8121)
+05:54:56 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8120)
+05:54:58 [INFO] simulator: Round 28: launched 3 instances
+05:54:58 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8124)
+05:54:58 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8122)
+05:54:58 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8123)
+05:55:00 [INFO] simulator: Round 29: launched 7 instances
+05:55:00 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8125)
+05:55:00 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8127)
+05:55:00 [INFO] simulator: Started func_cpu_light_mem_light in cgroup func_a.slice (pid=8126)
+05:55:00 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8129)
+05:55:00 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8131)
+05:55:00 [INFO] simulator: Started func_cpu_heavy_mem_heavy in cgroup func_c.slice (pid=8130)
+05:55:00 [INFO] simulator: Started func_cpu_light_mem_heavy in cgroup func_b.slice (pid=8128)
